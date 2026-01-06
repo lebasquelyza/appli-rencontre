@@ -1,3 +1,4 @@
+// sportmeet-complet/src/components/Footer.jsx
 import React from "react";
 
 export function Footer() {
@@ -6,10 +7,7 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-content">
-        <span>SportMeet © {year}</span>
-        <span className="footer-note">
-          Prototype démo — à connecter à une vraie API (auth, chat, géoloc) plus tard.
-        </span>
+        <span>MatchFit • {year}</span>
       </div>
     </footer>
   );
